@@ -46,7 +46,9 @@ public class JavaBeansAndBytes {
         CoffeeDrink coffee1 = new CoffeeDrink(9, "gasoline", false);
         CoffeeDrink coffee2 = new CoffeeDrink(1000, "seawater", false);
 
-
+        coffee1.setFlavor("gasoline");
+        String newSpecial = coffee2.getFlavor();
+        specialOfTheDay(newSpecial);
         // TODO
         // Print out the order details
         coffee1.printInfo();
