@@ -43,12 +43,14 @@ public class JavaBeansAndBytes {
         countCups();
         baristasChoice();
 
-        // TODO
-        // Create two CoffeeDrink objects
+        CoffeeDrink coffee1 = new CoffeeDrink(9, "gasoline", false);
+        CoffeeDrink coffee2 = new CoffeeDrink(1000, "seawater", false);
+
 
         // TODO
         // Print out the order details
-
+        coffee1.printInfo();
+        coffee2.printInfo();
 
     }
 
